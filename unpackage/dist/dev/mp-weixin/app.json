@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/fruitlist/fruitlist",
+    "pages/car/car",
+    "pages/user/user",
+    "pages/group/group"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#f73c0a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/fruitlist/fruitlist",
+        "text": "果园",
+        "iconPath": "static/images/fruit.png",
+        "selectedIconPath": "static/images/fruit-selected.png"
+      },
+      {
+        "pagePath": "pages/group/group",
+        "text": "拼团",
+        "iconPath": "static/images/tuan.png",
+        "selectedIconPath": "static/images/tuan-selected.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "果篮",
+        "iconPath": "static/images/car.png",
+        "selectedIconPath": "static/images/car-selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-selected.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tree-select": "/wxcomponents/vant-weapp/tree-select/index",
+    "van-button": "/wxcomponents/vant-weapp/button/index"
+  }
+}
