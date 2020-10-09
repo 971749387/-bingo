@@ -1,1 +1,1 @@
-<view></view>
+<view class="car-container data-v-51e9b630"><van-card vue-id="2964de54-1" num="2" price="2.00" desc="描述信息" title="商品标题" thumb="{{imageURL}}" data-com-type="wx" class="data-v-51e9b630" bind:__l="__l"></van-card><van-submit-bar vue-id="2964de54-2" price="3050" button-text="提交订单" bind:submit="onSubmit" data-com-type="wx" class="data-v-51e9b630" bind:__l="__l"></van-submit-bar></view>

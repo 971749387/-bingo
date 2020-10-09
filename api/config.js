@@ -5,7 +5,7 @@ function request(option){
 			method:option.method || 'GET',
 			success:(res)=>{
 			    resolve(res.data);
-			 },
+			 }, 
 			 fail:(err)=>{
 				 reject(err)
 			 }

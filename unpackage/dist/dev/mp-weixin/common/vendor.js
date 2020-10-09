@@ -7879,9 +7879,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!**************************************************************!*\
-  !*** D:/我的文档/Documents/HBuilderProjects/guoweiyi/pages.json ***!
-  \**************************************************************/
+/*!***********************************************************!*\
+  !*** D:/我的文档/Documents/HBuilderProjects/bingo/pages.json ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8816,9 +8816,9 @@ if (hadRuntime) {
 
 /***/ }),
 /* 20 */
-/*!***************************************************************!*\
-  !*** D:/我的文档/Documents/HBuilderProjects/guoweiyi/api/home.js ***!
-  \***************************************************************/
+/*!************************************************************!*\
+  !*** D:/我的文档/Documents/HBuilderProjects/bingo/api/home.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8833,9 +8833,9 @@ function getlunbo() {
 
 /***/ }),
 /* 21 */
-/*!*****************************************************************!*\
-  !*** D:/我的文档/Documents/HBuilderProjects/guoweiyi/api/config.js ***!
-  \*****************************************************************/
+/*!**************************************************************!*\
+  !*** D:/我的文档/Documents/HBuilderProjects/bingo/api/config.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8858,6 +8858,46 @@ function getlunbo() {
 
 request;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */,
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */,
+/* 37 */,
+/* 38 */
+/*!*****************************************************************!*\
+  !*** D:/我的文档/Documents/HBuilderProjects/bingo/api/fruitlist.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.getcategory = getcategory;exports.getfruit = getfruit;var _config = _interopRequireDefault(__webpack_require__(/*! ./config.js */ 21));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+function getcategory() {
+  return (0, _config.default)({
+    url: "http://127.0.0.1:3000/api/getfruitcate" });
+
+}
+
+function getfruit(id) {
+  return (0, _config.default)({
+    url: "http://127.0.0.1:3000/api/getfruitlist/".concat(id),
+    method: "post" });
+
+}
 
 /***/ })
 ]]);
